@@ -1,0 +1,36 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="18dp"
+    android:layout_margin="12dp">
+<LinearLayout
+    android:background="@color/material_dynamic_secondary90"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/countryFlag"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/textViewCountryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country Name"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        />
+
+    <TextView
+        android:id="@+id/countryPopulation"
+        android:layout_width="match_parent"
+        android:text="Country Population"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
